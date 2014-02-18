@@ -1,0 +1,66 @@
+ki pages */
+
+/* Block at top of page with details of the wiki. */
+div#region-main h2.main {
+  /* margin-bottom: 0;
+  border-radius: 5px 5px 0 0; */
+  display: none;
+  
+}
+
+div#region-main #intro {
+  /* margin-top: 0;
+  border-radius: 0 0 5px 5px; */
+  display: none;
+}
+
+/* "Printer friendly version" */
+div#region-main .wiki_right a {
+  display: none;
+}
+
+/* Menu stuff. */
+
+div#region-main .tabtree {
+  margin: 0;
+}
+
+div#region-main .tabtree li a {
+  border: none;
+  box-shadow: none;
+}
+
+div#region-main .tabtree li a:hover {
+  background-color: #ccc;
+}
+
+/* Actual wiki content */
+div#region-main div.box.generalbox {
+  padding: 2em;
+}
+
+div#region-main div.box.generalbox h1 {
+  font-size: 1.7em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+div#region-main div.box.generalbox h2 {
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+div#region-main div.box.generalbox h3 {
+  font-size: 1.3em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+div#region-main div.box.generalbox p {
+  margin-top: 0.5em;
+}
+
+div#region-main h2.wiki_headingtitle {
+  font-size: 2em;
+}
